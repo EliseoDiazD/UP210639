@@ -1,5 +1,7 @@
 #include <iostream>
-#include 
+#include <stdio.h>
+
+using namespace std;
 
 int main ()
 {
@@ -9,9 +11,9 @@ int main ()
     char caracter= 65;
     cout << "Este programa demuestra los tipos datos, \n";
     cout << "El numero entero es: "<< entero << endl;
-    cout << "el tamaño del entero es:" << sizeof (entero) << "bytes" << endl:
+    cout << "el tamaño del entero es:" << sizeof (entero) << "bytes" << endl;
     cout << "El numero entero es: "<< caracter << endl;
-    cout << "el tamaño del entero es:" << sizeof (caracter) << "bytes" << endl:
+    cout << "el tamaño del entero es:" << sizeof (caracter) << "bytes" << endl;
 
     return 0;
 
