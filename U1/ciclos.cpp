@@ -19,8 +19,8 @@ int main()
         } 
     }
     suma=par+impar;
-    printf("el reusltado de la suma es: %d", par);
-    printf("el reusltado de la suma es: %d", impar);
-    printf("el reusltado de la suma es: %d", suma );
+    printf("el reusltado de la suma es: %d \n", par);
+    printf("el reusltado de la suma es: %d \n", impar);
+    printf("el reusltado de la suma es: %d \n", suma );
     return 0;
 }

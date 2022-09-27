@@ -1,12 +1,14 @@
 #include <iostream>
-#include <stdio.h>
+#include <iomanip>
+#include <string>
 using namespace std;
+
+
 int main()
 {
     int e;
-    printf("dime tu edad \n");
-    scanf("Edad", &e);
-
+    cout << "dime tu edad \n";
+    cin >> e;
     if (e >= 1 && e <= 150)
     {
         if (e >= 1 && e <= 30)
@@ -21,8 +23,10 @@ int main()
         {
             printf("3er edad \n");
         }
-        else
-            printf("Horas Extras \n");
+        else if (e >= 91 && e<= 150)
+        {
+           printf("Horas Extras \n"); 
+        }
     }
     else
         printf("dato invalido \n");
