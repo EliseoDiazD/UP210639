@@ -1,3 +1,10 @@
+/*
+    Unidad 2
+    Nombre del programa: Evaluacion de edades
+    Autor: Eliseo Diaz Delgadillo
+    proposito del programa: Dependiendo la edad dada se categoriza en 4 clases "1er edad",  "2da edad", "3er edad" y Horas extras
+    fecha:
+*/
 #include <iostream>
 #include <iomanip>
 #include <string>

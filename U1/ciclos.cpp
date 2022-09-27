@@ -1,3 +1,10 @@
+/*
+    Unidad 1
+    Nombre del programa: Ciclo
+    Autor: Eliseo Diaz Delgadillo
+    proposito del programa: Utilizar un ciclo for para sumar numeros impares y pares
+    fecha:
+*/
 #include <iostream>
 #include <stdio.h>
 using namespace std;

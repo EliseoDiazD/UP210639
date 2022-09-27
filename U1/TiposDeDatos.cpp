@@ -1,3 +1,10 @@
+/*
+    Unidad 1
+    Nombre del programa: Tipos de datos
+    Autor: Eliseo Diaz Delgadillo
+    proposito del programa: explicar los diferentes tipos de datos que existen 
+    fecha:
+*/
 #include <iostream>
 #include <stdio.h>
 
