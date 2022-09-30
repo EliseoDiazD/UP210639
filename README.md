@@ -9,15 +9,15 @@
 </center>
 
 **Lista de programas por unidad** 
- |PROGRAMA | Unidad|
- |---------|-------|
- |Ciclos.cpp|1|
- |Hola mundo.cpp|1|
- |ParImpar.cpp|1|
- |TiposDeDatos.cpp|1|
- |Alfabeto.cpp|2|
- |EvaluacionDeEdades.CPP|2|
- |Tramos.cpp|2|
+ |PROGRAMA | Unidad|Lenguaje|
+ |---------|-------|----|
+ |Ciclos|1|C++|
+ |Hola mundo|1|C++|
+ |ParImpar|1|C++|
+ |TiposDeDatos|1|C++|
+ |Alfabeto|2|C++|
+ |EvaluacionDeEdades|2|C++|
+ |Tramos|2|C++|
 
 ![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/Recursos/Link.jpg)
 
