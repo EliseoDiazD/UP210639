@@ -25,7 +25,87 @@
 
 ![screenshot](https://github.com/UP210639/UP210639_CPP/blob/main/Recursos/Elma.jpg)  
 
+
+# Unidad 1
+**Ciclos**
+````
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+    int suma = 0;
+    int par = 0;
+    int impar = 0;
+    int n = 10;
+    for (int i = 1; i <= n; i++)
+    {
+        if (i%2==0)
+        {
+          par = par + i;   
+        }
+        else
+        {
+          impar = impar + i;
+        } 
+    }
+    suma=par+impar;
+    printf("el reusltado de la suma es: %d \n", par);
+    printf("el reusltado de la suma es: %d \n", impar);
+    printf("el reusltado de la suma es: %d \n", suma );
+    return 0;
+}
+
+````
 ---
+**HolaMundo**
+````
+#include <iostream>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+    cout << "Hola Mundo" << endl;
+    return 0;
+}
+````
+---
+**ParImpar**
+````
+#include <iostream>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+    cout << "Par o Impar" << endl;
+    return 0;
+}
+
+````
+---
+**TiposDeDatos**
+````
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main ()
+{
+    int entero= 21;
+    float flotante=3.4e38;
+    double grande= 2.5654;
+    char caracter= 65;
+    cout << "Este programa demuestra los tipos datos, \n";
+    cout << "El numero entero es: "<< entero << endl;
+    cout << "el tamaño del entero es:" << sizeof (entero) << "bytes" << endl;
+    cout << "El numero entero es: "<< caracter << endl;
+    cout << "el tamaño del entero es:" << sizeof (caracter) << "bytes" << endl;
+
+    return 0;
+
+}
+````
+---
+# Unidad 2  
 **Evaluacion de edades**
 ````
 #include <iostream>
@@ -61,7 +141,99 @@ int main()
 
 ````
 ---
+**Alfabeto**
+````
+#include <iostream>
+#include <stdio.h>
 
+using namespace std;
+
+int main ()
+{
+    char A = 65;
+    char a ='Z';
+    int n=0;
+    cout << "Alfabeto Mayuscula A-Z" << endl;
+    for (char A = 65; A <= 90 ; A++)
+    {
+       cout << A << endl;
+    }
+    cout << "Alfabeto Mayuscula Z-A" << endl;
+    
+    for (int i = 0; i <= 26; i++)
+    {
+        cout << a << endl;
+        a=a-1;
+    }
+    cout << "Numeros del 1 al 10" << endl;
+    for (int n = 0; n <= 10; n++)
+    {
+        cout << n << endl;
+    }
+    return 0;   
+}
+
+````
+---
+**Tramos**
+````
+#include <iostream>
+#include <iomanip>
+#include <string>
+using namespace std;
+
+int main () 
+{ 
+   int R;
+   int t;
+   int T;
+   cout << "Cual es el monto de tu renta \n";
+   cin >> R;
+   if (R >=0 && R <= 65000)
+    {
+        if (R < 10000 ) {
+            printf("Impuesto a pagar de 5%\n");
+            t=R*.05;
+            T=R+t;
+            cout << "Total a pagar" << T << endl;
+            
+        }
+
+        else if (R >= 10000 && R < 20000) {
+            printf("Impuesto a pagar de 15%\n");
+            t=R*.15;
+            T=R+t;
+            cout << "Total a pagar" << T << endl;
+            
+        }
+        else if (R >= 20000 && R < 35000) {
+            printf("Impuesto a pagar de 20%\n");
+            t=R*.2;
+            T=R+t;
+            cout << "Total a pagar" << T << endl;
+            
+        }
+        else if (R >= 35000 && R < 60000) {
+            printf("Impuesto a pagar de 30%\n");
+            t=R*.3;
+            T=R+t;
+            cout << "Total a pagar" << T << endl;
+            
+        }
+        else {
+            printf("Impuesto a pagar de 45%\n");
+            t=R*.45;
+            T=R+t;
+            cout << "Total a pagar" << T << endl;
+        }
+    }
+    else
+        printf("No pagas impuesto\n");
+
+    return 0;
+}
+````
+---
 
 `https://www.LinkdePrueba.com`
 
