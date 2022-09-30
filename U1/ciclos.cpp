@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
     int suma = 0;
-    int par = 0;
+    int par = 10;
     int impar = 0;
     int n = 10;
     for (int i = 1; i <= n; i++)
