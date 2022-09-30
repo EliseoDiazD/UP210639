@@ -19,11 +19,11 @@
  |EvaluacionDeEdades.CPP|2|
  |Tramos.cpp|2|
 
-![Inserte Imagen aqui](Link.jpg)
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/Recursos/Link.jpg)
 
 > Codigos C++
 
-![screenshot](Elma.jpg)  
+![screenshot](https://github.com/UP210639/UP210639_CPP/blob/main/Recursos/Elma.jpg)  
 
 ---
 **Evaluacion de edades**
