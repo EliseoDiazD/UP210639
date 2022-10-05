@@ -15,6 +15,7 @@ int main ()
     char A = 65;
     char a ='Z';
     int n=0;
+    int N;
     cout << "Alfabeto Mayuscula A-Z" << endl;
     for (char A = 65; A <= 90 ; A++)
     {
@@ -32,5 +33,11 @@ int main ()
     {
         cout << n << endl;
     }
+    cout << "Numeros del 10 al 1" << endl;
+    for(int N=10; N>=1; N--)
+    {
+        cout << N << endl;
+    }
+    
     return 0;   
 }
