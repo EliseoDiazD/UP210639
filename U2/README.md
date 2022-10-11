@@ -37,7 +37,7 @@ int main ()
 }
 
 ````
-![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U1/Imagenes/01_5.png)
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_1.png)
 ---
 **Tramos**
 ````
@@ -97,6 +97,7 @@ int main ()
     return 0;
 }
 ````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_2.png)
 ---
 **Tabla De Multiplicar**
 ````
@@ -188,6 +189,10 @@ return 0;
 }
 
 ````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_3.png)
+
+
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_3.1.png)
 ---
 **Multiplicaciones**
 ````
@@ -243,6 +248,7 @@ int main()
     return 0;
 }
 ````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_4.png)
 ---
 **44**
 ````
@@ -265,6 +271,7 @@ int main()
     }
 }
 ````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_5.png)
 ---
 **Beneficios**
 ````
@@ -319,6 +326,7 @@ int main()
     return 0;
 }
 ````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_6.png)
 ---
 **Entradas**
 ````
@@ -356,6 +364,7 @@ int main ()
 
 }
 ````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_7.png)
 ---
 **Pizzeria**
 ````
@@ -419,6 +428,7 @@ int main()
     return 0;
 }
 ````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_8.png)
 ---
 **Temperaturas**
 ````
@@ -462,6 +472,7 @@ int main()
     return 0;
 }
 ````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_9.png)
 ---
 **SuperMercado**
 ````
@@ -497,6 +508,7 @@ int main()
 
 }
 ````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_10.png)
 ---
 **Binario a decimal**
 ````
@@ -535,3 +547,4 @@ unsigned long long binarioADecimal(char *cadenaBinaria, int longitud)
 }
 
 ````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U2/Imagenes2/02_11.png)
