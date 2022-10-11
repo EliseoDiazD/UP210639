@@ -3,6 +3,32 @@
 ![screenshot](https://github.com/UP210639/UP210639_CPP/blob/main/Recursos/Elma.jpg)  
 
 # Unidad 1
+---
+**HolaMundo**
+````
+#include <iostream>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+    cout << "Hola Mundo" << endl;
+    return 0;
+}
+````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U1/Imagenes/01_1.png)
+---
+**ParImpar**
+````
+#include <iostream>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+    cout << "Par o Impar" << endl;
+    return 0;
+}
+
+````
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U1/Imagenes/01_2.png)
+---
 **Ciclos**
 ````
 #include <iostream>
@@ -31,34 +57,8 @@ int main()
     printf("el reusltado de la suma es: %d \n", suma );
     return 0;
 }
-
 ````
-![Inserte Imagen aqui]()
----
-**HolaMundo**
-````
-#include <iostream>
-using namespace std;
-int main(int argc, char const *argv[])
-{
-    cout << "Hola Mundo" << endl;
-    return 0;
-}
-````
-![Inserte Imagen aqui](02_1.jpg)
----
-**ParImpar**
-````
-#include <iostream>
-using namespace std;
-int main(int argc, char const *argv[])
-{
-    cout << "Par o Impar" << endl;
-    return 0;
-}
-
-````
-![Inserte Imagen aqui](03_1.jpg)
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U1/Imagenes/01_3.png)
 ---
 **TiposDeDatos**
 ````
@@ -83,7 +83,7 @@ int main ()
 
 }
 ````
-![Inserte Imagen aqui](04_1.jpg)
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U1/Imagenes/01_4.png)
 --- 
 **Evaluacion de edades**
 ````
@@ -119,4 +119,4 @@ int main()
 }
 
 ````
-![Inserte Imagen aqui](05_1.jpg)
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U1/Imagenes/01_5.png)
