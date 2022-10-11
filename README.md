@@ -449,10 +449,10 @@ using namespace std;
 
 int main()
 {
-    int c;
-    int p;
-    int t;
-    int s;
+    int c=0;
+    int p=0;
+    int t=0;
+    int s=0;
 
     do
     {
