@@ -14,8 +14,8 @@ using namespace std;
 int main()
 {
     float p = 40;
-    float P=0;
-    float r=0;
+    float P=0.0f;
+    float r=0.0f;
     char rendimiento = 'I';
 
     cout << "Bienvenido, Inserte la puntacion del empleado"; //Toma valores enteros y dentro del programa ya lo trasforma a punto decimal 
@@ -26,7 +26,7 @@ int main()
         rendimiento = 'I';
         if (p == 0 || p == 40 || p >= 60)
 
-            P = p / 100; //Aqui cambia el valor con puntod decimal 
+            P = p / 100; //Aqui cambia el valor con punto decimal 
             r = P * 2400; 
 
              cout << "\n El rendimiento del empleado es: " << rendimiento << " \n Recibira :" << r;

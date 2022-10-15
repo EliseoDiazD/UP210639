@@ -8,6 +8,7 @@
 *Portafolio de todos los codigos de programacion*
 </center>
 
+
 **Lista de programas por unidad** 
  |PROGRAMA | Unidad|Lenguaje|
  |---------|-------|----|
@@ -28,7 +29,27 @@
  |Multiplicacion|2|C++|
  |44|2|C++|
 
+# Presentacion de la materia :D
+
 ![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/Recursos/Link.jpg)
+
+* Unidad 1:
+
+* Unidad 2:
+
+* Unidad 3:
+
+* Unidad 4:
+
+**Github**
+
+1. Git Status
+
+1. Git Add .
+
+1. Git Commit -m "Comentario"
+
+1. Git Push
 
 # Codigos De Todo El Cuatrimestre
 
