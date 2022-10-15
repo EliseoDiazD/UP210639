@@ -43,13 +43,22 @@
 
 **Github**
 
-1. Git Status
+* Git Status
 
-1. Git Add .
+-Verifica el estado actual del repositorio asi como avisa si existe algun cambio en el
 
-1. Git Commit -m "Comentario"
+* Git Add .
 
-1. Git Push
+-Prepara todos los archivos modificados para poder mandarlos al repositorio original
+
+* Git Commit -m "Comentario"
+
+-Añade un comentario acerca del archivo acerca de los cambios realizados
+
+* Git Push
+
+-Sube todo los archivos al repositorio
+
 
 # Codigos De Todo El Cuatrimestre
 
