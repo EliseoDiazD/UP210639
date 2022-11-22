@@ -11,7 +11,7 @@ int doble(int a) //Funcion que dobla el resultado del numero dado
 }
 int sumatoria(int n)
 {
-    int x = 0, i = 0;
+    int x = 0;
 
     for (int i = 0; i <= n; i++)
     {
