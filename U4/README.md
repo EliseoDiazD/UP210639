@@ -128,7 +128,7 @@ Verify that you managed to win the game (complete the suduko )
 <summary> Flow diagram Hanoi towers </summary>
 <br>
 
-![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U4/Imagenes/DDT.JPEG)
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U4/Imagenes/DDT.jpeg)
 
 </details>
 
@@ -138,6 +138,6 @@ Verify that you managed to win the game (complete the suduko )
 <summary> Flow diagram Sudoku </summary>
 <br>
 
-![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U4/Imagenes/DDS.JPEG)
+![Inserte Imagen aqui](https://github.com/UP210639/UP210639_CPP/blob/main/U4/Imagenes/DDS.jpeg)
 
 </details>
