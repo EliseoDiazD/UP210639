@@ -14,15 +14,18 @@ int main()
     int par = 10;
     int impar = 0;
     int n = 10;
+    int e = 0;
     for (int i = 1; i <= n; i++)
     {
         if (i%2==0)
         {
           par = par + i;   
+          e = i;
         }
         else
         {
           impar = impar + i;
+          i = e;
         } 
     }
     suma=par+impar;
