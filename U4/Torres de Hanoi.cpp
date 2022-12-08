@@ -31,7 +31,8 @@ void IT() {
     char co = 202;
     for (int i = 0; i < 29; i++) {
         gotoxy(40 + i, 11);
-        cout << RED << p;
+        SetConsoleTextAttribute(h, 12);
+        cout <<p;
     }
 
     for (int i = 0; i <= 4; i++) {
@@ -44,14 +45,16 @@ void IT() {
     }
 
     gotoxy(44, 11);
-    cout <<RED<<co;
+    SetConsoleTextAttribute(h, 12);
+    cout <<co;
     gotoxy(54, 11);
     cout << co;
     gotoxy(64, 11);
     cout << co;
 
     gotoxy(44, 12);
-    cout << GREEN<< 1;
+    SetConsoleTextAttribute(h, 10);
+    cout << 1;
     gotoxy(54, 12);
     cout << 2;
     gotoxy(64, 12);
@@ -112,7 +115,8 @@ void jugar(int d[n][n], int m1, int m2) {
             d[i][m2] = c;
             if (c > d[o][m2] && o == 0) {
                 gotoxy(40, 20);
-                cout << RED << "Error" << endl;
+                SetConsoleTextAttribute(h, 12);
+                cout << "Error" << endl;
                 d[i][m2] = 0;
                 d[e][m1] = c;
                 break;
@@ -141,8 +145,9 @@ int main() {
     int m1, m2;
     clrscr();
     gotoxy(40, 10);
-    cout << LBLUE << "Torres" << " " << LBLUE << " "<< "d" << LGREEN << "e" << LGREEN << " "<< "hanoi" << endl;
-    // SetConsoleTextAttribute(h, 9);
+    SetConsoleTextAttribute(h, 9);
+    cout << "Torres de hanoi" << endl;
+    SetConsoleTextAttribute(h, 9);
     gotoxy(30, 12);
     cout << "Si deseas iniciar el juego ingresa cualquier numero (excepto el 0): ";
     cin >> b;
@@ -151,7 +156,8 @@ int main() {
         gano = false;
         LM(discos);
         gotoxy(40, 15);
-        cout << LBLUE << "Ingresa tu jugada" << endl;
+        SetConsoleTextAttribute(h, 9);
+        cout << "Ingresa tu jugada" << endl;
         while (j <= 10 && gano == false) {
             clrscr();
             IT();
@@ -162,17 +168,21 @@ int main() {
                 break;
             }
             gotoxy(40, 15);
-            cout << LBLUE << "Ingresa tu jugada" << endl;
+            SetConsoleTextAttribute(h, 9);
+            cout << "Ingresa tu jugada" << endl;
             gotoxy(65, 4);
-            cout << LGREEN << "Jugada numero:"
+            SetConsoleTextAttribute(h, 10);
+            cout << "Jugada numero:"
                  << " " << j << endl;
             gotoxy(40, 17);
-            cout << LGREEN << "De Torre" << endl;
+            SetConsoleTextAttribute(h, 10);
+            cout << "De Torre" << endl;
             gotoxy(50, 17);
             cin >> m1;
             m1--;
             gotoxy(40, 18);
-            cout << LGREEN << "A Torre" << endl;
+            SetConsoleTextAttribute(h, 10);
+            cout << "A Torre" << endl;
             gotoxy(50, 18);
             cin >> m2;
             m2--;
@@ -183,14 +193,17 @@ int main() {
         if (gano)
         {
             gotoxy(40, 21);
-            cout << LBLUE <<"Felicidades :3"<< endl;
+            SetConsoleTextAttribute(h, 9);
+            cout << "Felicidades :3"<< endl;
         }
         gotoxy(40, 22);
-        cout << LBLUE << "Deseas volver a jugar?" << endl;
+        SetConsoleTextAttribute(h, 9);
+        cout << "Deseas volver a jugar?" << endl;
         gotoxy(65, 24);
         cin >> b;
     }
-    cout << LGREEN << "hasta pronto" << endl;
+    SetConsoleTextAttribute(h, 10);
+    cout << "hasta pronto" << endl;
 
     return 0;
 }
